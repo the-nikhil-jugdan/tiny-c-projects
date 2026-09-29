@@ -47,6 +47,7 @@ int read_quotes_file() {
     strcpy(read_str, buffer);
     quotes[quote_num++] = read_str;
   }
+  fclose(fp);
   return 0;
 }
 
