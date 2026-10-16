@@ -56,3 +56,4 @@ dkms.conf
 */build/
 .direnv/
 
+hex/hex_val
